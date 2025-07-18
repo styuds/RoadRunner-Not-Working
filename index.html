@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="How to Fix Roadrunner Email Not Working - Complete Troubleshooting Guide">
+    <meta name="description" content="Comprehensive guide to fix Roadrunner email when it's not working. Step-by-step solutions for login issues, sending/receiving problems, and configuration errors.">
+    <meta name="keywords" content="roadrunner email not working, roadrunner not working, fix roadrunner email not working, how to fix roadrunner email not working, roadrunner email problems, roadrunner email issues, roadrunner email troubleshooting">
+    <meta name="msvalidate.01" content="963C5F2CB97E156F7FB431687310563D" />
+    <title>How to Fix Roadrunner Email Not Working - Complete Troubleshooting Guide</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📧</text></svg>">
+    <style>
+        :root {
+            --primary-color: #0066cc;
+            --secondary-color: #004080;
+            --accent-color: #ff6600;
+            --light-color: #f8f9fa;
+            --dark-color: #212529;
+            --success-color: #28a745;
+            --warning-color: #ffc107;
+            --danger-color: #dc3545;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: var(--dark-color);
+            background-color: var(--light-color);
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .logo-icon {
+            font-size: 2rem;
+        }
+        
+        .nav-buttons {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.7rem 1.8rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .btn-primary {
+            background-color: var(--accent-color);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: #e55c00;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        
+        .btn-secondary {
+            background-color: white;
+            color: var(--primary-color);
+        }
+        
+        .btn-secondary:hover {
+            background-color: #f0f0f0;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        
+        main {
+            padding: 2rem 0;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+            border-radius: 15px;
+            margin-bottom: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+        }
+        
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary-color);
+            line-height: 1.2;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            color: #555;
+        }
+        
+        section {
+            margin-bottom: 3rem;
+            background: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            border: 1px solid #eee;
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 1.8rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 2px solid #f0f0f0;
+            font-size: 2rem;
+        }
+        
+        h3 {
+            color: var(--secondary-color);
+            margin: 2rem 0 1.2rem;
+            font-size: 1.5rem;
+        }
+        
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.1rem;
+            color: #444;
+        }
+        
+        ul, ol {
+            margin-bottom: 1.8rem;
+            padding-left: 2.2rem;
+        }
+        
+        li {
+            margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+            color: #444;
+        }
+        
+        .fix-method {
+            background: #f5faff;
+            padding: 1.8rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            border: 1px solid #e1e8f0;
+        }
+        
+        .method-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2.5rem;
+        }
+        
+        .method-card {
+            background: white;
+            padding: 1.8rem;
+            border-radius: 10px;
+            border-left: 5px solid var(--primary-color);
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .method-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .method-card h4 {
+            color: var(--primary-color);
+            margin-bottom: 0.8rem;
+            font-size: 1.3rem;
+        }
+        
+        .error-tip {
+            background: #fff9f0;
+            padding: 1.5rem;
+            border-left: 5px solid var(--warning-color);
+            margin-bottom: 1.5rem;
+            border-radius: 5px;
+        }
+        
+        .error-tip h4 {
+            color: var(--warning-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .success-tip {
+            background: #f0f9f5;
+            padding: 1.5rem;
+            border-left: 5px solid var(--success-color);
+            margin-bottom: 1.5rem;
+            border-radius: 5px;
+        }
+        
+        .success-tip h4 {
+            color: var(--success-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .critical-tip {
+            background: #fef0f0;
+            padding: 1.5rem;
+            border-left: 5px solid var(--danger-color);
+            margin-bottom: 1.5rem;
+            border-radius: 5px;
+        }
+        
+        .critical-tip h4 {
+            color: var(--danger-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        footer {
+            background: linear-gradient(135deg, var(--dark-color) 0%, #000 100%);
+            color: white;
+            text-align: center;
+            padding: 3rem 0;
+            margin-top: 4rem;
+        }
+        
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .back-to-top {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .severity {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-left: 0.5rem;
+        }
+        
+        .easy {
+            background-color: #e6f7ee;
+            color: var(--success-color);
+        }
+        
+        .medium {
+            background-color: #fff8e6;
+            color: var(--warning-color);
+        }
+        
+        .hard {
+            background-color: #fef0f0;
+            color: var(--danger-color);
+        }
+        
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 1.2rem;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            section {
+                padding: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">📧</span>
+                    <span>Roadrunner Email Fix</span>
+                </div>
+                <div class="nav-buttons">
+                    <button class="btn btn-primary" onclick="window.location.href='https://roadrunneraccount.net/'">Login Now</button>
+                    <button class="btn btn-secondary" onclick="window.location.href='https://getchatsupport.live/'">Get Support</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section class="hero">
+            <h1>How to Fix Roadrunner Email Not Working?</h1>
+            <p>Complete troubleshooting guide for Roadrunner email issues. Step-by-step solutions for login problems, sending/receiving errors, and configuration issues.</p>
+        </section>
+        
+        <section>
+            <h2>Common Roadrunner Email Problems</h2>
+            <p>Roadrunner email (now part of Spectrum services) can experience various issues that prevent it from working properly. Understanding the specific problem you're facing is the first step toward fixing it.</p>
+            
+            <div class="method-grid">
+                <div class="method-card">
+                    <h4>Login Failures <span class="severity medium">Medium</span></h4>
+                    <p>Unable to access your account due to incorrect password errors, account lockouts, or authentication problems.</p>
+                </div>
+                
+                <div class="method-card">
+                    <h4>Sending Issues <span class="severity easy">Easy</span></h4>
+                    <p>Emails stuck in outbox, rejection notices, or error messages when trying to send messages.</p>
+                </div>
+                
+                <div class="method-card">
+                    <h4>Receiving Problems <span class="severity medium">Medium</span></h4>
+                    <p>Not getting new emails, missing messages, or delays in receiving incoming mail.</p>
+                </div>
+                
+                <div class="method-card">
+                    <h4>Connection Errors <span class="severity hard">Hard</span></h4>
+                    <p>Server connection timeouts, authentication failures, or inability to connect to mail servers.</p>
+                </div>
+                
+                <div class="method-card">
+                    <h4>Configuration Issues <span class="severity medium">Medium</span></h4>
+                    <p>Problems with email client setup, incorrect server settings, or synchronization errors.</p>
+                </div>
+                
+                <div class="method-card">
+                    <h4>Spam Filter Problems <span class="severity easy">Easy</span></h4>
+                    <p>Legitimate emails going to spam or not receiving expected spam filtering.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Step-by-Step Fixes for Roadrunner Email</h2>
+            <p>Follow these detailed solutions based on the specific issue you're experiencing with your Roadrunner email:</p>
+            
+            <div class="fix-method">
+                <h3>Fixing Login Problems</h3>
+                <ol>
+                    <li><strong>Verify your credentials</strong> - Ensure you're entering the correct email address and password (check Caps Lock)</li>
+                    <li><strong>Reset your password</strong> - Use the "Forgot Password" link on the login page</li>
+                    <li><strong>Check account status</strong> - Verify your Spectrum/Roadrunner account is active and paid up</li>
+                    <li><strong>Try alternate login page</strong> - Use spectrum.net login if Roadrunner page fails</li>
+                    <li><strong>Clear browser cache</strong> - Old cached data might cause login issues</li>
+                    <li><strong>Try different browser</strong> - Test with Chrome, Firefox, or Edge</li>
+                    <li><strong>Disable VPN</strong> - Some VPNs interfere with authentication</li>
+                </ol>
+            </div>
+            
+            <div class="fix-method">
+                <h3>Resolving Sending Issues</h3>
+                <ol>
+                    <li><strong>Check outgoing server settings</strong>:
+                        <ul>
+                            <li>SMTP server: mail.twc.com or mail.spectrum.com</li>
+                            <li>Port: 465 (SSL) or 587 (TLS)</li>
+                            <li>Authentication required</li>
+                        </ul>
+                    </li>
+                    <li><strong>Verify message size</strong> - Large attachments may exceed limits</li>
+                    <li><strong>Check recipient addresses</strong> - Invalid addresses cause sending failures</li>
+                    <li><strong>Review spam content</strong> - Certain phrases may block sending</li>
+                    <li><strong>Test with simple message</strong> - Try sending plain text without attachments</li>
+                </ol>
+            </div>
+            
+            <div class="fix-method">
+                <h3>Fixing Receiving Problems</h3>
+                <ol>
+                    <li><strong>Check incoming server settings</strong>:
+                        <ul>
+                            <li>IMAP server: mail.twc.com or mail.spectrum.com</li>
+                            <li>Port: 993 (SSL)</li>
+                            <li>Username: Full email address</li>
+                        </ul>
+                    </li>
+                    <li><strong>Review spam folder</strong> - Missing messages may be filtered</li>
+                    <li><strong>Check storage space</strong> - Full mailbox prevents new emails</li>
+                    <li><strong>Verify email rules</strong> - Misconfigured filters may divert messages</li>
+                    <li><strong>Test with another account</strong> - Send from different email to verify receipt</li>
+                </ol>
+            </div>
+            
+            <div class="fix-method">
+                <h3>Solving Connection Errors</h3>
+                <ol>
+                    <li><strong>Check internet connection</strong> - Ensure stable network access</li>
+                    <li><strong>Verify server status</strong> - Check for Spectrum outages in your area</li>
+                    <li><strong>Update email client</strong> - Ensure you're using latest version</li>
+                    <li><strong>Review firewall settings</strong> - Security software may block connections</li>
+                    <li><strong>Try webmail access</strong> - Use browser to isolate client issues</li>
+                    <li><strong>Reset network equipment</strong> - Restart modem and router</li>
+                </ol>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Advanced Troubleshooting Tips</h2>
+            
+            <div class="error-tip">
+                <h4>Configuration Reset</h4>
+                <p>For persistent client configuration issues:
+                <ul>
+                    <li>Remove the email account from your client completely</li>
+                    <li>Restart your device</li>
+                    <li>Add the account fresh with correct settings</li>
+                    <li>Use automatic setup if available, then verify settings</li>
+                </ul>
+                </p>
+            </div>
+            
+            <div class="critical-tip">
+                <h4>Account Recovery</h4>
+                <p>If you suspect account compromise:
+                <ul>
+                    <li>Immediately change your password</li>
+                    <li>Check forwarding rules for unauthorized changes</li>
+                    <li>Review sent items for suspicious activity</li>
+                    <li>Enable two-factor authentication</li>
+                    <li>Contact support if you can't regain access</li>
+                </ul>
+                </p>
+            </div>
+            
+            <div class="success-tip">
+                <h4>Mobile Device Fixes</h4>
+                <p>For smartphone/tablet email issues:
+                <ul>
+                    <li>Toggle airplane mode to reset network connections</li>
+                    <li>Update device OS to latest version</li>
+                    <li>Remove and re-add email account</li>
+                    <li>Try alternative email app (e.g., Outlook instead of Mail)</li>
+                    <li>Check battery optimization settings aren't restricting sync</li>
+                </ul>
+                </p>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Preventing Future Roadrunner Email Issues</h2>
+            
+            <div class="success-tip">
+                <h4>Maintenance Best Practices</h4>
+                <p>Keep your email running smoothly:
+                <ul>
+                    <li>Regularly clean out old messages and empty trash</li>
+                    <li>Maintain updated contact information with provider</li>
+                    <li>Periodically check and update email client settings</li>
+                    <li>Use strong, unique password and change periodically</li>
+                    <li>Bookmark official login page to avoid phishing sites</li>
+                </ul>
+                </p>
+            </div>
+            
+            <div class="error-tip">
+                <h4>When to Contact Support</h4>
+                <p>Seek professional help when:
+                <ul>
+                    <li>All troubleshooting steps fail to resolve issue</li>
+                    <li>You suspect account has been compromised</li>
+                    <li>Experiencing widespread service outages</li>
+                    <li>Need to recover important lost emails</li>
+                    <li>Facing recurring problems despite fixes</li>
+                </ul>
+                </p>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Conclusion</h2>
+            <p>Roadrunner email issues can be frustrating, but most problems can be resolved by methodically working through the appropriate troubleshooting steps. Whether you're facing login difficulties, sending/receiving problems, or configuration errors, this guide provides comprehensive solutions to get your email working again.</p>
+            
+            <p>Remember that Roadrunner email is now part of Spectrum's services, so some settings and procedures may have changed from the original Roadrunner configuration. When in doubt, verifying current server settings and using official Spectrum resources can help resolve lingering issues.</p>
+            
+            <p>By implementing the preventive measures outlined in this guide and familiarizing yourself with the troubleshooting techniques, you can minimize email disruptions and quickly resolve any problems that do occur. With patience and the right approach, you can restore full functionality to your Roadrunner email account.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p> Roadrunner Email Fix Guide. This informational resource is not affiliated with Spectrum or Roadrunner. All trademarks are property of their respective owners.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="back-to-top" id="backToTop">↑</div>
+    
+    <script>
+        // Back to top button functionality
+        window.addEventListener('scroll', function() {
+            var backToTop = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+        
+        document.getElementById('backToTop').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
